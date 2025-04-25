@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Este é um comentário */
+
+/* Classes e ids */
+
+.texto {
+    color: lightgreen;
+}
+
+#titulo-app {
+    color: indigo;
+    font-size: 50px;
+}
+
+/* Especificidade */
+
+div p {
+    color: red;
+}
+
+.p-dentro-da-div {
+    color: blue;
+}
+
+#p-super-especifico {
+    color: green;
+}

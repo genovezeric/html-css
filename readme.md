@@ -1,4 +1,4 @@
-Temos divididos em duas pastas os arquivos de aula...
+*** Temos divididos em duas pastas os arquivos de aula ***
 
 primeira-parte: Arquivos de exemplo para HTML (tags, metatags)
 
