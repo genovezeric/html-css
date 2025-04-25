@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Formulário</title>
+    </head>
+    <body>
+        <!-- Para criarmos um formulário usamos a tag form e os atributos action para linkar ao arquivo de backend 
+         E o atributo "method" para POST ou GET com as informaçõs no backend -->
+        <form action="envio.php" method="GET">
+            <!-- Com o atributo type nós definimos qual tipo de input vai ser "Text" = Campo de inserir texto -->
+            <input type="text" name="Nome"/>
+        <!-- Essa tag br serve para quebrar uma linha -->
+            <br>
+            <br>
+            <input type="checkbox" name="temcarro"> eu tenho um carro
+            <br>
+            <br>
+            Data de nascimento <input type="date" name="data de nascimento">
+            <br>
+            <br>
+            <input type="radio" name="gender" value="masculino">Masculino
+            <input type="radio" name="gender" value="feminino">Feminino
+            <input type="radio" name="gender" value="prefiro não informar">Prefiro não informar
+            <br>
+            <br>
+            <textarea rows="4" cols="10"></textarea>
+            <br>
+            <br>
+            <input type="password" name="senha">
+            <br>
+            <br>
+            <!-- Atributo "submit" = botão  -->
+            <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+</html>

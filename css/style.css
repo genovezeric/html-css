@@ -1,4 +1,5 @@
 /* 1 - Integração Inicial */
+/*  ESSE ARQUIVO MOSTRA ALGUMAS DAS FUNÇÕES DE CSS APLICADAS NO HTML*/
 
 h1 {
     color: blue;
@@ -234,4 +235,10 @@ p {
 #absolute2 {
     right: 10px;
     bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
